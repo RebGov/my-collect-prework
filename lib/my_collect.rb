@@ -5,8 +5,6 @@ def my_collect(array)
   while i < array.length
       new_array.push yield array[i] 
       i += 1
-  #  array.each_with_index do |n, i|
-  #    array[i] = yield(n)
     end
     new_array
   else
